@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <link rel="stylesheet" href="styles.css"/>
-    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="filter.js"></script>
+    <script type="text/javascript" src="scroll.js"></script>
   </head>
   <body>
 
@@ -21,7 +24,7 @@
         <p id="subtitle">NLP engineer / Fullstack Ruby On Rails</p>
         <div class="wrap">
           <div class="box">
-            <div class="text animated pulse"><a href="#about" class="read-more btn-medium">En savoir plus</a></div>
+            <div class="text animated pulse"><a href="#about" class="read-more btn-medium smoothScroll">En savoir plus</a></div>
           </div>
         </div>
       </div>
@@ -29,12 +32,32 @@
 
     <!-- about -->
 
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-lg-offset-2 col-lg-4">
+            <div>
+              <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/15965739_10211730308597774_241320827965017852_n.jpg?oh=b8acefc465cc80e133e778951e6193d1&oe=595956D8" class=" profil-pic">
+            </div>
+          </div>
+          <div class="col-xs-12 col-lg-4">
+            <div class="intro">
+              <p>I am NLP engineer for 6 years. I work on NLU system that extracts entities from text as temporal expressions (date, hour, duration, period, set), location (train station, aeroport, address, district…), personality, organization...</p>
+              <p>In 2017, I decided to start the Fullstack Program of <a href="https://www.lewagon.com/en" target="_blank" class="lewagon">LeWagon</a>. In two months, I learned Ruby, Ruby On Rails, javascript, jQuery, Ajax, Bootstrap and deploy many projects on Heroku.</p>
+              <p>I am currently continuing my learning with the FreeCodeCamp and I enjoy it!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- portfolio -->
 
     <!-- contact -->
 
     <!-- footer -->
-
+    <footer class="text-center">
+      <p>2017 © Aurélie Merlo - A FreeCodeCamp Project</p>
+    </footer>
   </body>
 </html>
-
