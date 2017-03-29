@@ -71,9 +71,14 @@ body {
 
 /* ABOUT STYLES */
 
+#about div.row h3 {
+  color: #FFFFFF;
+}
+
 #about {
   background-color: #CA3C25;
-  height: 400px;
+  height: 550px;
+  padding-top: 30px;
 }
 .profil-pic {
   height: 250px;
@@ -96,8 +101,171 @@ body {
   text-decoration: none;
   color: #FFFFFF;
 }
+.title {
+  border-bottom: 1px solid #FFFFFF;
+  color: #FFFFFF;
+}
+
+/* PORTFOLIO STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#portfolio {
+  background-color: #FFFFFF;
+  height: 800px;
+  padding-top: 30px;
+}
+
+#portfolio div.row h3 {
+  color: #CA3C25;
+}
+
+.categories {
+  margin: 5% 1.5%;
+  z-index: 9990;
+}
+
+.categories button {
+  border: 2px solid #CA3C25;
+  z-index: 9990;
+  border-radius: 3px;
+  min-width: 80px;
+  min-height: 37px;
+  padding: 10px;
+  background-color: #fff;
+  font-weight: 600;
+  color: #CA3C25;
+  outline: none;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+  cursor: pointer;
+}
+
+.categories button:hover {
+  border: 2px solid #1D1A05;
+  color: #1D1A05;
+}
+
+.categories button:focus {
+  border: 2px solid #1D1A05;
+  color: #1D1A05;
+}
+
+/*.image-gallery {
+  z-index: 9990;
+  width: 100%;
+  height: auto;
+  background-color: transparent;
+}*/
+
+
+.card {
+  height: 200px;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+  background-size: cover !important;
+  color: white;
+  position: relative;
+  margin: 10px;
+}
+.card-user {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.card-category {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+.card-description {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+}
+.card-description h2 {
+  font-size: 24px;
+}
+.card-description p {
+  font-size: 13px;
+  }
+.card-link {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  z-index:2;
+  background: black;
+  opacity: 0;
+}
+.card-link:hover{
+  opacity: 0.1;
+}
+
+.both {
+  clear: both;
+}
+
+/* */
+
+#contact {
+  height: auto;
+  background-color: #7FB069;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box;
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+/*  background-color: #4CAF50;
+*/  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+/*  background-color: #45a049;
+*/}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  padding: 20px;
+}
+
+form {
+  margin: 30px;
+}
+
+#contact div.row h3 {
+  color: #FFFFFF;
+}
 
 /* FOOTER STYLES */
 
-
+#footer {
+  height: 200px;
+  background-color: #1D1A05;
+}
 

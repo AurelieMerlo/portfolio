@@ -35,6 +35,7 @@
     <section id="about">
       <div class="container">
         <div class="row">
+          <h3><span class="glyphicon glyphicon-user" aria-hidden="true"></span> About</h3>
           <div class="col-xs-12 col-lg-offset-2 col-lg-4">
             <div>
               <img src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/15965739_10211730308597774_241320827965017852_n.jpg?oh=b8acefc465cc80e133e778951e6193d1&oe=595956D8" class=" profil-pic">
@@ -52,11 +53,96 @@
     </section>
 
     <!-- portfolio -->
+    <section id="portfolio">
+      <div class="container">
+        <div class="row">
+          <h3><span class="glyphicon glyphicon-th-large" aria-hidden="true"></span> Portfolio</h3>
+          <div class="categories">
+            <button class="all">All</button>
+            <button class="so-nlp">NLP</button>
+            <button class="so-fullstack">Fullstack</button>
+            <button class="so-frontend">Frondend</button>
+          </div>
+          <div class="image-gallery">
+            <div class="col-xs-12 col-sm-4 nlp">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTDDkEI2My1B4ISPLqHVBPrDo08D0vhb0TGKkiwC37KFSYEWIWM');">
+                <div class="card-category">#python, #NLTK, #scikit-learn</div>
+                <div class="card-description">
+                  <h2>Time Extract</h2>
+                  <p>A Python Lib to Extract Time Entities from Text</p>
+                </div>
+                <a class="card-link" href="https://github.com/AurelieMerlo/time_extract" ></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 fullstack">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/ddlfhhbye/image/upload/v1490706428/Capture_d_e%CC%81cran_2017-03-28_a%CC%80_15.06.43_lmf5ff.png');">
+                <div class="card-category">#ruby, #ror, #javascript, #jQuery, #bootstrap</div>
+                <div class="card-description">
+                  <h2>Healthy Grandma</h2>
+                  <p>LeWagon Final Project</p>
+                </div>
+                <a class="card-link" href="http://healthygrandma.herokuapp.com/" ></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 frontend">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/ddlfhhbye/image/upload/v1490706198/Capture_d_e%CC%81cran_2017-03-28_a%CC%80_15.02.31_whfjea.png');">
+                <div class="card-category">#html, #css, #bootstrap</div>
+                <div class="card-description">
+                  <h2>Elon Musk's Tribute Page</h2>
+                  <p>FreeCodeCamp Challenge</p>
+                </div>
+                <a class="card-link" href="https://codepen.io/aureliemerlo/full/MpBmvz" ></a>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-4 frontend">
+              <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('http://res.cloudinary.com/ddlfhhbye/image/upload/v1490706192/Capture_d_e%CC%81cran_2017-03-28_a%CC%80_15.02.47_rlajhq.png');">
+                <div class="card-category">#html, #css, #bootstrap, #javascript, #jQuery</div>
+                <div class="card-description">
+                  <h2>Portoflio</h2>
+                  <p>FreeCodeCamp Challenge</p>
+                </div>
+                <a class="card-link" href="https://codepen.io/aureliemerlo/full/RpBOxm" ></a>
+              </div>
+            </div>
+            <div class="both"></div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- contact -->
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <h3><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Get in touch</h3>
+          <div class="col-xs-12 col-lg-8">
+            <form action="/action_page.php">
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+              <input type="submit" value="Submit">
+            </form>
+          </div>
+          <div class="col-xs-12 col-lg-4">
+            <div class="social-networks">
+              <ul> <!-- TODO: delete bullets, white color, sizer -->
+                <li><a><span class="glyphicon glyphicon-map-marker"> Lille, France</span></a></li> <!-- TODO : add link map -->
+                <li><a><span class="glyphicon glyphicon-envelope"> aurelie.merlo.web@gmail.com</span></a></li> <!-- TODO: open mailer -->
+                <li><a><span class="glyphicon glyphicon-envelope"> aurelie.merlo.web@gmail.com</span></a></li> <!-- TODO: font-awesome for icon and link to github -->
+                <li><a><span class="glyphicon glyphicon-envelope"> @Aurelie_Merlo</span></a></li> <!-- TODO: font-awesome for icon and link to twitter  -->
+                <li><a><span class="glyphicon glyphicon-envelope"> Aurélie Merlo</span></a></li>
+                <!-- TODO: font-awesome for icon and link to linkedin -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- footer -->
-    <footer class="text-center">
+    <footer id="footer" class="text-center">
       <p>2017 © Aurélie Merlo - A FreeCodeCamp Project</p>
     </footer>
   </body>

@@ -1,23 +1,20 @@
-$(document).ready(function() {
-  $('ul#filter a').click(function() {
-    $(this).css('outline','none');
-    $('ul#filter .current').removeClass('current');
-    $(this).parent().addClass('current');
+$(document).ready(function(){
+    $(".all").click(function(){
+        $(".nlp, .fullstack, .frontend").show();
+    });
 
-    var filterVal = $(this).text().toLowerCase().replace(' ','-');
+    $(".so-frontend").click(function(){
+        $(".nlp, .fullstack").fadeOut(200);
+        $(".frontend").show();
+    });
 
-    if(filterVal == 'all') {
-      $('ul#portfolio li.hidden').fadeIn('slow').removeClass('hidden');
-    } else {
-      $('ul#portfolio li').each(function() {
-        if(!$(this).hasClass(filterVal)) {
-          $(this).fadeOut('normal').addClass('hidden');
-        } else {
-          $(this).fadeIn('slow').removeClass('hidden');
-        }
-      });
-    }
+    $(".so-nlp").click(function(){
+        $(".frontend, .fullstack").fadeOut(200);
+        $(".nlp").show();
+    });
 
-    return false;
-  });
+  $(".so-fullstack").click(function(){
+        $(".frontend, .nlp").fadeOut(200);
+        $(".fullstack").show();
+    });
 });
