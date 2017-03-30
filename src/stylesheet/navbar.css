@@ -1,0 +1,23 @@
+/* NAVBAR STYLES */
+
+ul.navbar-right li a, a.navbar-brand {
+  color: #1D1A05;
+  font-family: Roboto;
+}
+ul.navbar-nav > li > a:hover, ul.navbar-nav > li > a:focus {
+  height: 60px;
+}
+.opaque-navbar {
+  background-color: rgba(0,0,0,0);
+  height: 60px;
+  border-bottom: 0px;
+  transition: background-color .5s ease 0s;
+}
+.opaque-navbar.opaque {
+  background-color: white;
+  height: 60px;
+  transition: background-color .5s ease 0s;
+}
+ul.dropdown-menu {
+  background-color: white;
+}

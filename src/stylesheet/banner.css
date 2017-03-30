@@ -1,0 +1,63 @@
+/* BANNER STYLES */
+
+.banner {
+  background-image: url('http://gratisography.com/pictures/277_1.jpg');
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner h1 {
+  font-size: 50px;
+  font-family: Roboto;
+  font-weight: lighter;
+  color: #1D1A05;
+}
+.banner p {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: lighter;
+  color: #1D1A05;
+  margin-bottom: 20px;
+}
+.btn-medium {
+  color: #EF6A56;
+  border: 2px solid #EF6A56;
+  padding: 10px 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.btn-medium:hover, .btn-medium:focus {
+  opacity: 1;
+  text-decoration: none;
+  color: #EF6A56;
+}
+.text {
+  text-align: center;
+  margin-top: 200px;
+  color: #EF6A56;
+  font-size: 1.0em;
+  font-family: Roboto;
+  text-transform: uppercase;
+}
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.1);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
