@@ -12,7 +12,7 @@ body {
 }
 #about {
   background-color: #EF6A56;
-  height: 550px;
+  height: auto;
   padding-top: 30px;
 }
 .profil-pic {
@@ -29,10 +29,10 @@ body {
   font-family: Roboto;
   font-weight: lighter;
 }
-.lewagon {
+a {
   color: #1D1A05;
 }
-.lewagon:hover {
+a:hover {
   text-decoration: none;
   color: #FFFFFF;
 }
