@@ -49,7 +49,7 @@ body {
 }
 #portfolio {
   background-color: #FFFFFF;
-  height: 800px;
+  height: auto;
   padding-top: 30px;
 }
 #portfolio div.row h3 {
