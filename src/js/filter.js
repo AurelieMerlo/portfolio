@@ -4,17 +4,17 @@ $(document).ready(function(){
     });
 
     $(".so-frontend").click(function(){
-        $(".nlp, .fullstack").fadeOut(200);
+        $(".nlp, .fullstack").hide();
         $(".frontend").show();
     });
 
     $(".so-nlp").click(function(){
-        $(".frontend, .fullstack").fadeOut(200);
+        $(".frontend, .fullstack").hide();
         $(".nlp").show();
     });
 
   $(".so-fullstack").click(function(){
-        $(".frontend, .nlp").fadeOut(200);
+        $(".frontend, .nlp").hide();
         $(".fullstack").show();
     });
 });
